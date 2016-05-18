@@ -1,0 +1,211 @@
+#intro {
+    padding-top:100px;
+}
+
+#contact {
+    background-image:url("../images/trava.png"); 
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position:bottom;
+
+
+}
+
+.gifts_left {
+    display:table;
+    float:left;
+}
+
+.gifts_right {
+    display:table;
+    float:right;
+    text-align:right;
+}
+
+.gifts {
+    display:table-row;
+}
+
+.gifts p {
+    display:table-cell;
+}
+
+section {
+    padding-top:70px;
+}
+
+.flower {
+    width:80px;
+    /*display:table-cell; */
+}
+
+.person {
+    width:200px;
+}
+
+#rainbow {
+    width:80%;
+    margin:0 auto;
+}
+
+.map {
+    width:70%;
+    margin:20px;
+}
+
+.fotka {
+    width:45%;
+    margin:20px;
+    margin-bottom:50px;
+}
+
+
+#kocka {
+    clear:both;
+    margin:0 auto;
+    width:30%;
+
+}
+
+.right { text-align:right;}
+.center { text-align:center;}
+
+
+
+.pohadka {
+    font-size: xx-large;
+    text-align:center;
+}
+
+.centered {
+    color:#ffffff;
+}
+
+.price {
+    float:right;
+}
+
+
+.contact {
+    text-align:left;
+    padding-bottom:50px;
+    line-height:300%;
+}
+
+
+
+#about {
+    text-align:left;
+}
+
+#photo {
+    max-width:300px;
+    max-height:300px;
+    margin: 0 auto;
+    display:block;
+}
+
+#footer_padding {
+    height:150px;
+}
+
+#footer {
+    position:relative;
+    top:-80px;
+    color:#bbb;
+    font-size:small;
+}
+
+.noclick {
+    cursor:default;
+}
+
+.papers {
+    text-align:left;
+}
+
+.conferenceYear {
+    display:inline-block;
+    width:50px;
+    font-weight:bold;
+}
+
+
+
+.contact_name {
+    padding-top:40px;
+    padding-left:40px;
+    font-size:large;
+    font-weight:bold;
+}
+
+.contact_address {
+    padding-left:40px;
+    font-size:large;
+    background-image:url("glyphicons_free/glyphicons/png/glyphicons-243-map-marker.png");
+    background-repeat:no-repeat;
+    background-position:0px 6px;
+}
+
+.contact_email {
+    padding-left:40px;
+    font-size:large;
+    background-image:url("glyphicons_free/glyphicons/png/glyphicons-11-envelope.png");
+    background-repeat:no-repeat;
+    background-position:0px 6px;
+}
+
+.contact_scholar {
+    padding-left:40px;
+    font-size:large;
+    background-image:url("glyphicons_free/glyphicons/png/glyphicons-501-education.png");
+    background-repeat:no-repeat;
+    background-position:0px 6px;
+}
+
+.contact_skype {
+    padding-left:40px;
+    font-size:large;
+    background-image:url("glyphicons_free/glyphicons-social/png/glyphicons-social-39-skype.png");
+    background-repeat:no-repeat;
+    background-position:0px 2px;
+}
+
+.contact_linkedin {
+    padding-left:40px;
+    font-size:large;
+    background-image:url("glyphicons_free/glyphicons-social/png/glyphicons-social-18-linked-in.png");
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+}
+
+.contact_github {
+    padding-left:40px;
+    font-size:large;
+    background-image:url("glyphicons_free/glyphicons-social/png/glyphicons-social-22-github.png");
+    background-repeat:no-repeat;
+    background-position:0px 2px;
+}
+
+.contact_bitbucket {
+    padding-left:40px;
+    font-size:large;
+    background-image:url("glyphicons_free/glyphicons-social/png/glyphicons-social-61-bitbucket.png");
+    background-repeat:no-repeat;
+    background-position:0px 2px;
+}
+
+body {
+/*    padding-top:65px; */
+    margin:0px;
+    padding:0px;
+}
+
+p {
+    text-align:left;
+    font-size:large;
+}
+
+h4 {
+    text-align:left;
+}
