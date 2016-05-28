@@ -2,13 +2,8 @@
     padding-top:100px;
 }
 
-#contact {
-    background-image:url("../images/trava.png"); 
-    background-size:100%;
-    background-repeat:no-repeat;
-    background-position:bottom;
-
-
+#grass {
+    width:100%;
 }
 
 .gifts_left {
@@ -55,8 +50,7 @@ section {
 
 .fotka {
     width:45%;
-    margin:20px;
-    margin-bottom:50px;
+/*    margin:20px; */
 }
 
 
@@ -88,7 +82,7 @@ section {
 
 .contact {
     text-align:left;
-    padding-bottom:50px;
+    padding-bottom:300px;
     line-height:300%;
 }
 
