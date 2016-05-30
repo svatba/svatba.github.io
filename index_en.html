@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Wedding!">
+    <meta name="author" content="Petr Maj">
+
+    <title>Bude svatba!</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <script>
+
+        function resizeCenteredElements() {
+            var element = $("#pohadka");
+            var size = Math.min(element.parent().width(), window.innerHeight)
+            if (size < 600) {
+                $("#holka_email").css("display", "none");
+                $("#kluk_email").css("display", "none");
+            } else {
+                if (window.innerHeight < window.innerWidth)
+                    size = size * 0.80
+            }
+            element.width(size + "px")
+            element.height(size + "px")
+            element.css("margin-top", ((elements.parent().height() - elements.height()) / 2) + "px");
+            //alert("done");
+        }
+
+
+
+        function onload() {
+            resizeCenteredElements();
+        }
+
+    </script>
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" onload="onload()">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" id="brand" href="#page-top">Wedding!</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#church">Where &amp; When</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#party">Party</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#gifts">Gifts</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Česky</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro">
+        <div class="centered container">
+            <p class="pohadka">
+                <img alt="pohadka" id="pohadka" src="images/pohadka.jpg" />
+            </p>
+        </div>
+    </section>
+
+    <section id="church">
+        <div class="container">
+            <h1>
+                Krista
+                <img src="images/srdce.png" width="100px" />
+                Peta
+            </h1>
+            <p class="center">
+                will be married on the 27th August 2016 at 2pm!!!! The wedding will take place in the church of st. Gotthard, which you can find here:
+            </p>
+            <img src="images/mapa1.jpg" class="map" />
+            <p class="center">
+                If you are grown-up already, you might prefer this <a href="https://mapy.cz/s/FlNc">map</a>.
+            </p>
+            <p class="center">
+                The wedding will be in a church, and because we hope that not just adults, but also children will be present in numbers, the ceremony will be short (without a mass)
+            </p>
+        </div>
+    </section>
+
+<!--
+    <div class="center">
+        <img src="images/duha.png" id="rainbow" />
+    </div>
+-->
+
+    <section id="party">
+        <div class="container">
+            <h1>There will be a party!</h1>
+            <div class="gifts_left">
+                <div class="gifts">
+                    <img class="flower" src="images/slunce.jpg" />
+                    <p>
+                        After the ceremony and photoshots, we will embark on a long and perilous journey to the Na Slamniku pub (see the map, or <a href="https://mapy.cz/s/FlVo">grownups' map</a>), to which you are cordially invited!
+
+                    </p>
+                </div>
+            </div>
+            <div class="gifts_right">
+                <div class="gifts">
+                    <p>
+                        We hope for good weather and that you will be able to enjoy the nearby park (we have marked important points of interest in the map - sorry, in Czech only:). Please remind your parents to bring all the important toys (rice, etc.). 
+                    </p>
+                    <img class="flower" src="images/motyl modrej.jpg" />
+                </div>
+            </div>
+            <img src="images/mapa2.jpg" class="map" />
+            <p class="center">
+                Please, mind the cars!
+            </p>
+            <div class="gifts_left">
+                <div class="gifts">
+                    <img class="flower" src="images/kytka modra.jpg" />
+                    <p class="left">We hope you will all come. Please let us know by the end of june <a href="https://docs.google.com/forms/d/1pUs4yEOY4cZSPdv9XtTTQ2VANG_jOIggppT53OQ4_MA/viewform" target="_blank">that you will</a> and if you need any help with accomodation in Prague, so that we can better prepare for you, <br/>thanks!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gifts">
+        <div class="container">
+            <h1>Gifts</h1>
+            <div class="gifts_left">
+                <div class="gifts">
+                    <img class="flower" src="images/kytka cervena.jpg" />
+                    <p>If you like us, just come to the wedding - this is all we ask!</p>
+                </div>
+            </div>
+            <div class="gifts_right">
+                <div class="gifts">
+                    <p class="right">In case you absolutely must bring some gifts, please visit this site again in a month or so, we'll think hard and figure some stuff that would make us happy. 
+                    </p>
+                    <img class="flower" src="images/spirala.png" />
+                </div>
+            </div>
+            <!--
+                        <div class="gifts_left">
+                            <div class="gifts">
+                                <img class="flower" src="images/motyl modrej.png" />
+                                <p>Pokud nas máte rádi, ale neradi pečete, a nechcete jenom přijít, a nic vás nenapadá, tak opravdu, ale opravdu v tomhle nejzažším případě jsme pro vas připravili takový malý seznam. Vyberte si co chcete, a odškrtněte, aby i ostatní věděli:)</p>
+                            </div>
+                        </div>
+                 -->
+            <img id="kocka" src="images/kocka.jpg" />
+            <p class="center"><big>THX!</big></p>
+            <!--            <p class="center">Kočku už máme, a jedna nám rozhodně stačí! Na svatbu ale nemůže, a bude doma smutnej, a na svatební cestu taky nemůže, a stejskalo by se mu a nudil by se, takže kdybyste ale vážně opravdu hrozně moc neco chteli přinést, tak ještě než se budete dívat na seznam, zkuste se zamyslet nad kocourem a přineste třeba nějakou hracku (čím levnější tím je má radši, a tím déle mu vydrží:)</p>
+                -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <h1>Did we forget anything?</h1>
+                <div class="gifts_left">
+                    <div class="gifts">
+                        <script>
+                            var a = "kristina.dufkova";
+                            var b = "@";
+                            var c = "gmail.com";
+                            (function (email) {
+                                document.write("<a href=\"mailto:" + email + "\">" + "<img class='person' src='images/holka.jpg' /><p id='holka_email'>" + email + "</p></a>");
+                            })(a + b + c)
+                        </script>
+                    </div>
+                </div>
+                <div class="gifts_right">
+                    <div class="gifts">
+                        <script>
+                            var a = "peta.maj82";
+                            var b = "@";
+                            var c = "gmail.com";
+                            (function (email) {
+                                document.write("<a href=\"mailto:" + email + "\">" + "<p class='right' id='kluk_email'>" + email + "</p><img class='person' src='images/kluk.jpg' /></a>");
+                            })(a + b + c)
+                        </script>
+                    </div>
+                </div>
+                <br style="clear:both" />
+                <p class="center">
+                    You should not forget to come! And let us know that you will, we are looking foward to seeing you!
+                </p>
+                <img src="images/fotka v ramecku.jpg" class="fotka" />
+            </div>
+        </div>
+    </section>
+
+    <img src="images/trava.jpg" alt="grass" id="grass" />
+
+
+
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
