@@ -70,6 +70,10 @@ section {
     font-size: xx-large;
     text-align:center;
 }
+.invitation {
+    text-align:center;
+    color:#202020;
+}
 
 .centered {
     color:#ffffff;
